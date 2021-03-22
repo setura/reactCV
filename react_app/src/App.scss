@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.my-photo {
+  height: 28vmin;
   pointer-events: none;
 }
 
@@ -20,7 +20,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(9px + 2vmin);
   color: white;
 }
 
@@ -38,72 +38,96 @@
 }
 
 // My style
+@media only screen and (min-width: 0) {
+  .body {
+    display: flex;
 
-.body {
-  display: flex;
-
-  .App-logo {
-    margin: 50px 0 10px;
-    max-height: 200px;
-    border-radius: 2%;
-  }
-
-  .left-container {
-    flex: 10%;
-    padding: 20px;
-    transform: translate(-330px, 0px);
-    animation: slide-back 0.3s 1;
-
-    // &:hover{   
-    //   animation: slide 0.3s 1;
-    //   animation-fill-mode: forwards;
-    // }
-
-    .arrow-container {
-      width: 100%;
-      height: 50px;
-      margin-top: 50px;
-
-      .arrow {
-        filter: invert(100%);
-        float: right;
-        height: 40px;
-
-        &:hover {
-          height: 45px;
-          cursor: pointer;
+    .left-container {
+      position: absolute;
+      width: 25%;
+      padding: 20px;
+      animation: slide 0.3s 1 forwards;
+  
+      .arrow-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        height: 70px;
+        margin-top: 50px;
+  
+        .arrow {
+          filter: invert(100%);
+          float: right;
+          height: 40px;
+          transform-origin: center;
+          transform: rotate(180deg);
+  
+          &:hover {
+            height: 45px;
+            cursor: pointer;
+          }
+        }
+  
+        .arrow.closed {
+          transform-origin: center;
+          transform: rotate(360deg);
+          animation: shake 4.72s 2s ease infinite;
         }
       }
     }
-  }
+  
+    .left-container.closed {
+      animation: slide-back 0.3s 1 forwards;
 
-  .main-content {
-    flex: 70%;
-  }
-
-  .links-container {
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    margin-top: 20px;
-    cursor: pointer;
-    
-    &_about,
-    &_resume,
-    &_contact {
-      color: white;
-      text-transform: uppercase;
-      text-decoration: none;
-      font-family: 'Roboto',sans-serif;
-      font-weight: 100;
-      margin: 25px 0;
-      height: 10px; 
-
-      &:hover {
-          font-size: 1.6rem;
+      .my-photo ,
+      .links-container {
+        animation: slide-back 0.6s 1 forwards;
       }
     }
-  }
+
+    .my-photo {
+      margin: 50px 0 10px;
+      max-height: 200px;
+      border-radius: 2%;
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      margin-top: 20px;
+      cursor: pointer;
+      
+      &_about,
+      &_resume,
+      &_contact {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Roboto',sans-serif;
+        font-weight: normal;
+        margin: 25px 0;
+        height: 10px; 
+  
+        &:hover {
+            font-weight: bold;
+        }
+      }
+    }
+
+    .main-content {
+      flex: 70%;
+    }
+  }  
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+  
 }
 
 // Animation key frames
@@ -120,7 +144,7 @@
 @keyframes slide {
 
   from {
-    transform: translate(-330px, 0px);
+    transform: translate(-10vw, 0px);
   }
 
   to {
@@ -135,11 +159,22 @@
   }
 
   to {
-    transform: translate(-330px, 0px);
+    transform: translate(-20vw, 0px);
   }
 }
 
 @keyframes shake {
+  0% { transform:translate(0,0) }
+  1.78571% { transform:translate(5px,0) }
+  3.57143% { transform:translate(0,0) }
+  5.35714% { transform:translate(5px,0) }
+  7.14286% { transform:translate(0,0) }
+  8.92857% { transform:translate(5px,0) }
+  10.71429% { transform:translate(0,0) }
+  100% { transform:translate(0,0) }
+}
+
+@keyframes always-shaking {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
   }
