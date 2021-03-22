@@ -1,0 +1,193 @@
+.App {
+  text-align: center;
+}
+
+.my-photo {
+  height: 28vmin;
+  pointer-events: none;
+}
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(9px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+// My style
+@media only screen and (min-width: 0) {
+  .body {
+    display: flex;
+
+    .left-container {
+      position: absolute;
+      width: 25%;
+      padding: 20px;
+      animation: slide 0.3s 1 forwards;
+  
+      .arrow-container {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        width: 100%;
+        height: 70px;
+        margin-top: 50px;
+  
+        .arrow {
+          filter: invert(100%);
+          float: right;
+          height: 40px;
+          transform-origin: center;
+          transform: rotate(180deg);
+  
+          &:hover {
+            height: 45px;
+            cursor: pointer;
+          }
+        }
+  
+        .arrow.closed {
+          transform-origin: center;
+          transform: rotate(360deg);
+          animation: shake 4.72s 2s ease infinite;
+        }
+      }
+    }
+  
+    .left-container.closed {
+      animation: slide-back 0.3s 1 forwards;
+
+      .my-photo ,
+      .links-container {
+        animation: slide-back 0.6s 1 forwards;
+      }
+    }
+
+    .my-photo {
+      margin: 50px 0 10px;
+      max-height: 200px;
+      border-radius: 2%;
+    }
+
+    .links-container {
+      display: flex;
+      flex-direction: column;
+      height: 300px;
+      margin-top: 20px;
+      cursor: pointer;
+      
+      &_about,
+      &_resume,
+      &_contact {
+        color: white;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-family: 'Roboto',sans-serif;
+        font-weight: normal;
+        margin: 25px 0;
+        height: 10px; 
+  
+        &:hover {
+            font-weight: bold;
+        }
+      }
+    }
+
+    .main-content {
+      flex: 70%;
+    }
+  }  
+}
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 1024px) {
+  
+}
+
+// Animation key frames
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slide {
+
+  from {
+    transform: translate(-10vw, 0px);
+  }
+
+  to {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes slide-back {
+
+  from {
+    transform: translate(0px, 0px);
+  }
+
+  to {
+    transform: translate(-20vw, 0px);
+  }
+}
+
+@keyframes shake {
+  0% { transform:translate(0,0) }
+  1.78571% { transform:translate(5px,0) }
+  3.57143% { transform:translate(0,0) }
+  5.35714% { transform:translate(5px,0) }
+  7.14286% { transform:translate(0,0) }
+  8.92857% { transform:translate(5px,0) }
+  10.71429% { transform:translate(0,0) }
+  100% { transform:translate(0,0) }
+}
+
+@keyframes always-shaking {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  } 
+}
