@@ -43,10 +43,9 @@
     display: flex;
 
     .left-container {
-      position: absolute;
       width: 25%;
+      position: absolute;
       padding: 20px;
-      animation: slide 0.3s 1 forwards;
   
       .arrow-container {
         display: flex;
@@ -77,6 +76,10 @@
       }
     }
   
+    .left-container.open {
+      animation: slide 0.3s 1 forwards;
+    }
+
     .left-container.closed {
       animation: slide-back 0.3s 1 forwards;
 

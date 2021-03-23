@@ -10,10 +10,12 @@ const Menu = () => {
         console.log('The link was clicked.');
         if (state) {
             $("#left-container").addClass('closed');
+            $("#left-container").removeClass('open');
             $("#menu-button-img").addClass('closed');
             state=false;
         } else {
             $("#left-container").removeClass('closed');
+            $("#left-container").addClass('open');
             $("#menu-button-img").removeClass('closed');
             state=true;
         } 
@@ -27,15 +29,15 @@ const Menu = () => {
             <img src={me} className="my-photo" alt="logo" />
             <div className="links-container">
                 <a className="links-container_about" 
-                    href="">
+                    href="/">
                     About Me
                 </a>
                 <a className="links-container_resume" 
-                    href="">
+                    href="/resume">
                     Resume
                 </a> 
                 <a className="links-container_contact" 
-                    href="">
+                    href="/contact">
                     Contact
                 </a>
             </div>
