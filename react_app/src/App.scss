@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -44,7 +44,8 @@
 
     .left-container {
       width: 25%;
-      position: absolute;
+      position: fixed;
+      z-index: 999;
       padding: 20px;
   
       .arrow-container {
@@ -120,7 +121,50 @@
     }
 
     .main-content {
-      flex: 70%;
+      width: 93%;
+      margin-left:7vw;
+    }
+
+    .about-me-page {
+      width: 100%;
+      height: 200vh;
+      background-color: black;
+      
+      .presentaion {
+        display: flex;
+        height: 100vh;
+
+        position: relative;
+        background-color: white;
+        justify-content: space-around;
+        align-content: center;
+
+          .presentation-text {
+            max-width: 1100px;
+            max-height: 200px;
+            margin: auto;
+            text-align: left;
+            z-index: 5;
+            h1,h2 {
+              margin: 0 0 0 auto;
+              line-height: 1;
+            }
+          }
+
+          .my-photo {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            max-width: 100%;
+            height: unset;
+            max-height: 100%;
+            transform: translate(-50%, -80%);
+            box-shadow: 11px 14px 300px gray
+            ;
+            border-radius: 0;
+            object-fit: none;
+          }
+      }
     }
   }  
 }
