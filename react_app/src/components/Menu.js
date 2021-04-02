@@ -7,7 +7,6 @@ const Menu = () => {
     let state = true;
 
     function handleMenu() {
-        console.log('The link was clicked.');
         if (state) {
             $("#left-container").addClass('closed');
             $("#left-container").removeClass('open');
@@ -22,9 +21,9 @@ const Menu = () => {
     }
 
     return (
-        <div className="App-header left-container" id="left-container">
-            <a className="arrow-container" onClick={handleMenu} href="#" id="menu-button">
-            <img src={arrow} className="arrow" id="menu-button-img"></img>
+        <div className="App-header left-container closed" id="left-container">
+            <a className="arrow-container" onClick={handleMenu} href="#!" id="menu-button">
+            <img src={arrow} className="arrow closed" id="menu-button-img"></img>
             </a>
             <img src={me} className="my-photo" alt="logo" />
             <div className="links-container">
