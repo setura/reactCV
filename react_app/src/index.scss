@@ -1,44 +1,93 @@
 @font-face {
-  font-family: 'Sequel';
+  font-family: "Sequel";
   font-style: normal;
   font-weight: normal;
-  src: local('Sequel'), url(./fonts/Sequel.ttf) format('truetype');
+  src: local("Sequel"), url(./fonts/Sequel.ttf) format("truetype");
 }
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'SourceSeriPro','Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+  font-family: "TungstenMedium";
+  font-style: normal;
+  font-weight: normal;
+  src: local("TungstenMedium"), url(./fonts/RainTungstenMedium.ttf) format("truetype");
+}
 
+@media only screen and (min-width: 0) {
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "SourceSeriPro", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
+      "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  
+    h1,
+    .h1,
+    h2,
+    .h2,
+    h3,
+    .h3 {
+      font-family: "Sequel", "sans-serif";
+      font-weight: 800;
+    }
+  
+    h1,
+    .h1 {
+      font-size: 3.2rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+  
+    h2,
+    .h2 {
+      font-size: 2rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+  
+    h3,
+    .h3 {
+      font-size: 1.6rem;
+      font-weight: normal;
+    }
+  
+    a {
+      font-family: "TungstenMedium";
+      font-size: 1.4rem;
+      letter-spacing: 0.2em;
+      text-decoration: none;
+      color: gray;
+    }
+
+    p {
+      font-size: 1.4rem;
+      font-family: SourceSerifPro Source Serif Pro Regular;
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
   h1,
-  h2,
-  h3 {
-    font-family: 'Sequel','sans-serif';
-    font-weight: 800;
-  }
-
-  h1 {
-    font-size: 4.4rem;
-    font-weight: 800;
-    text-transform: uppercase;
-  }
-
-  h2 {
-    font-size: 3.4rem;
-    font-weight: 800;
-    text-transform: uppercase;
-  }
-
-  h3 {
-    font-size: 2.4rem;
-  }
+    .h1 {
+      font-size: 4.4rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+  
+    h2,
+    .h2 {
+      font-size: 2.4rem;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+  
+    h3,
+    .h3 {
+      font-size: 1.4rem;
+      font-weight: normal;
+    }
 }
 
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
