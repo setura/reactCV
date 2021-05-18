@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactCV/static/css/main.ee2b1aa7.chunk.css",
-    "main.js": "/reactCV/static/js/main.845679c5.chunk.js",
-    "main.js.map": "/reactCV/static/js/main.845679c5.chunk.js.map",
-    "runtime-main.js": "/reactCV/static/js/runtime-main.c36dc396.js",
-    "runtime-main.js.map": "/reactCV/static/js/runtime-main.c36dc396.js.map",
-    "static/js/2.63fb7d3d.chunk.js": "/reactCV/static/js/2.63fb7d3d.chunk.js",
-    "static/js/2.63fb7d3d.chunk.js.map": "/reactCV/static/js/2.63fb7d3d.chunk.js.map",
-    "static/js/3.98bea09c.chunk.js": "/reactCV/static/js/3.98bea09c.chunk.js",
-    "static/js/3.98bea09c.chunk.js.map": "/reactCV/static/js/3.98bea09c.chunk.js.map",
+    "main.css": "/reactCV/static/css/main.7dc93a39.chunk.css",
+    "main.js": "/reactCV/static/js/main.fbd4e44c.chunk.js",
+    "main.js.map": "/reactCV/static/js/main.fbd4e44c.chunk.js.map",
+    "runtime-main.js": "/reactCV/static/js/runtime-main.bdd1701d.js",
+    "runtime-main.js.map": "/reactCV/static/js/runtime-main.bdd1701d.js.map",
+    "static/js/2.4919fd40.chunk.js": "/reactCV/static/js/2.4919fd40.chunk.js",
+    "static/js/2.4919fd40.chunk.js.map": "/reactCV/static/js/2.4919fd40.chunk.js.map",
+    "static/js/3.a0dd120c.chunk.js": "/reactCV/static/js/3.a0dd120c.chunk.js",
+    "static/js/3.a0dd120c.chunk.js.map": "/reactCV/static/js/3.a0dd120c.chunk.js.map",
     "index.html": "/reactCV/index.html",
-    "static/css/main.ee2b1aa7.chunk.css.map": "/reactCV/static/css/main.ee2b1aa7.chunk.css.map",
-    "static/js/2.63fb7d3d.chunk.js.LICENSE.txt": "/reactCV/static/js/2.63fb7d3d.chunk.js.LICENSE.txt",
+    "static/css/main.7dc93a39.chunk.css.map": "/reactCV/static/css/main.7dc93a39.chunk.css.map",
+    "static/js/2.4919fd40.chunk.js.LICENSE.txt": "/reactCV/static/js/2.4919fd40.chunk.js.LICENSE.txt",
     "static/media/CV-02-21-Zurich.0705b426.pdf": "/reactCV/static/media/CV-02-21-Zurich.0705b426.pdf",
     "static/media/ItsMePedroo3.74440d90.png": "/reactCV/static/media/ItsMePedroo3.74440d90.png",
     "static/media/index.scss": "/reactCV/static/media/Sequel.826a4e52.ttf",
@@ -19,9 +19,9 @@
     "static/media/logo.6ce24c58.svg": "/reactCV/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c36dc396.js",
-    "static/js/2.63fb7d3d.chunk.js",
-    "static/css/main.ee2b1aa7.chunk.css",
-    "static/js/main.845679c5.chunk.js"
+    "static/js/runtime-main.bdd1701d.js",
+    "static/js/2.4919fd40.chunk.js",
+    "static/css/main.7dc93a39.chunk.css",
+    "static/js/main.fbd4e44c.chunk.js"
   ]
 }
