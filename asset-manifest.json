@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/reactCV/static/css/main.7dc93a39.chunk.css",
-    "main.js": "/reactCV/static/js/main.1f5e285d.chunk.js",
-    "main.js.map": "/reactCV/static/js/main.1f5e285d.chunk.js.map",
+    "main.js": "/reactCV/static/js/main.982f30e8.chunk.js",
+    "main.js.map": "/reactCV/static/js/main.982f30e8.chunk.js.map",
     "runtime-main.js": "/reactCV/static/js/runtime-main.bdd1701d.js",
     "runtime-main.js.map": "/reactCV/static/js/runtime-main.bdd1701d.js.map",
-    "static/js/2.a6a8b534.chunk.js": "/reactCV/static/js/2.a6a8b534.chunk.js",
-    "static/js/2.a6a8b534.chunk.js.map": "/reactCV/static/js/2.a6a8b534.chunk.js.map",
+    "static/js/2.d134ee2c.chunk.js": "/reactCV/static/js/2.d134ee2c.chunk.js",
+    "static/js/2.d134ee2c.chunk.js.map": "/reactCV/static/js/2.d134ee2c.chunk.js.map",
     "static/js/3.a0dd120c.chunk.js": "/reactCV/static/js/3.a0dd120c.chunk.js",
     "static/js/3.a0dd120c.chunk.js.map": "/reactCV/static/js/3.a0dd120c.chunk.js.map",
     "index.html": "/reactCV/index.html",
     "static/css/main.7dc93a39.chunk.css.map": "/reactCV/static/css/main.7dc93a39.chunk.css.map",
-    "static/js/2.a6a8b534.chunk.js.LICENSE.txt": "/reactCV/static/js/2.a6a8b534.chunk.js.LICENSE.txt",
+    "static/js/2.d134ee2c.chunk.js.LICENSE.txt": "/reactCV/static/js/2.d134ee2c.chunk.js.LICENSE.txt",
     "static/media/CV-02-21-Zurich.0705b426.pdf": "/reactCV/static/media/CV-02-21-Zurich.0705b426.pdf",
     "static/media/ItsMePedroo3.74440d90.png": "/reactCV/static/media/ItsMePedroo3.74440d90.png",
     "static/media/index.scss": "/reactCV/static/media/Sequel.826a4e52.ttf",
@@ -20,8 +20,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.bdd1701d.js",
-    "static/js/2.a6a8b534.chunk.js",
+    "static/js/2.d134ee2c.chunk.js",
     "static/css/main.7dc93a39.chunk.css",
-    "static/js/main.1f5e285d.chunk.js"
+    "static/js/main.982f30e8.chunk.js"
   ]
 }
