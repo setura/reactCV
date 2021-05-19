@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reactCV/static/css/main.5f8802fd.chunk.css",
+    "main.css": "/reactCV/static/css/main.db77d1f2.chunk.css",
     "main.js": "/reactCV/static/js/main.98490e4f.chunk.js",
     "main.js.map": "/reactCV/static/js/main.98490e4f.chunk.js.map",
     "runtime-main.js": "/reactCV/static/js/runtime-main.bdd1701d.js",
@@ -10,7 +10,7 @@
     "static/js/3.a0dd120c.chunk.js": "/reactCV/static/js/3.a0dd120c.chunk.js",
     "static/js/3.a0dd120c.chunk.js.map": "/reactCV/static/js/3.a0dd120c.chunk.js.map",
     "index.html": "/reactCV/index.html",
-    "static/css/main.5f8802fd.chunk.css.map": "/reactCV/static/css/main.5f8802fd.chunk.css.map",
+    "static/css/main.db77d1f2.chunk.css.map": "/reactCV/static/css/main.db77d1f2.chunk.css.map",
     "static/js/2.28f3c516.chunk.js.LICENSE.txt": "/reactCV/static/js/2.28f3c516.chunk.js.LICENSE.txt",
     "static/media/CV-02-21-Zurich.0705b426.pdf": "/reactCV/static/media/CV-02-21-Zurich.0705b426.pdf",
     "static/media/ItsMePedroo3.74440d90.png": "/reactCV/static/media/ItsMePedroo3.74440d90.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.bdd1701d.js",
     "static/js/2.28f3c516.chunk.js",
-    "static/css/main.5f8802fd.chunk.css",
+    "static/css/main.db77d1f2.chunk.css",
     "static/js/main.98490e4f.chunk.js"
   ]
 }
