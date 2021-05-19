@@ -1,5 +1,5 @@
-import $ from 'jquery';
 import cv from '../resume/CV-02-21-Zurich.pdf'
+import React from 'react';
 
 const Resume = () => {
 

@@ -2,6 +2,7 @@ import $ from 'jquery';
 import me from '../images/ItsMePedroo3.png'
 import arrow from '../images/arrow.svg'
 import React, { useEffect, useRef, useState } from 'react';
+import { Link } from "react-router-dom";
 
 
 const About = () => {
@@ -14,6 +15,7 @@ const About = () => {
         document.execCommand('copy');
         e.target.focus();
         setCopySuccess(' copied!');
+        e.target.classList.add('copied');
       };
       
     useEffect(() => {
@@ -22,7 +24,7 @@ const About = () => {
         container.addEventListener('scroll', function () {
             sections.forEach((e, i) => {
                 var top = (e.getBoundingClientRect().top);
-                if (top == 0) {
+                if (top === 0) {
                     e.classList.remove('is-inview')
                     $('.about-me-content').removeClass('is-inview')
                     $('.arrow').show()
@@ -37,17 +39,14 @@ const About = () => {
       }, []);
     return (
         <div className="about-me-page">
-            <img src={arrow} className="arrow"></img>
+            <img src={arrow} className="arrow" alt="not-found"></img>
             <div className="presentaion">
             <div className="links-container">
-                <a className="links-container_resume" 
-                    href="/resume">
-                    Resume
-                </a> 
-                <a className="links-container_contact" onClick={copyToClipboard}>
-                    Contact
+                <Link className="links-container_resume"  to="/resume">Resume</Link>
+                <div className="links-container_contact a" onClick={copyToClipboard}>
+                    Email contact
                     {copySuccess}
-                </a>
+                </div>
             </div>
             <div className="presentation-text">
                 <h1>Pedro Amaro</h1>
@@ -66,7 +65,7 @@ const About = () => {
                     <h3>Who am I?</h3>
                     <p>Hi, my name is Pedro Amaro, I am a junior software engineer at the beginning of his career passionate about challenges and ready to make a positive impact in the world.</p>
                     <p>
-                    I am relocating to Zurich on 15 Oct 2021 (could be earlier If a job opportunity arises) to searching for the best opportunities in my area of studies cause I believe that this is the type of city where I'll have one of the best ways to enlarge my vision and knowledge, also I always wanted to live abroad, and so I couldn't be more excited to start this new chapter in my life.
+                    I am relocating to Zurich on 15 Oct 2021 (could be earlier If a job opportunity arises) to search for the best opportunities in my area of studies cause I believe that this is the type of city where I'll have one of the best ways to enlarge my vision and knowledge, also I always wanted to live abroad, and so I couldn't be more excited to start this new chapter in my life.
                     </p>
                     <p>I am currently working on Improove, a company focused on e-commerce with headquarters in Sweden where I started my way into frontend development.
                     Some project I have been a part of:</p>
