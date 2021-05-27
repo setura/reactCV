@@ -1,4 +1,4 @@
-import cv from '../resume/CV-02-21-Zurich.pdf'
+import cv from '../resume/Pedro_Amaro_CV.pdf'
 import React from 'react';
 
 const Resume = () => {
