@@ -64,9 +64,9 @@ const About = () => {
                 <div className="presentation-text">
                     <h3>Who am I?</h3>
                     <p>Hi, my name is Pedro Amaro, I am a junior software engineer at the beginning of his career passionate about challenges and ready to make a positive impact in the world.</p>
-                    <p>
+                    {/* <p>
                     I am relocating to Zurich on 15 Oct 2021 (could be earlier If a job opportunity arises) to search for the best opportunities in my area of studies cause I believe that this is the type of city where I'll have one of the best ways to enlarge my vision and knowledge, also I always wanted to live abroad, and so I couldn't be more excited to start this new chapter in my life.
-                    </p>
+                    </p> */}
                     <p>I am currently working on Improove, a company focused on e-commerce with headquarters in Sweden where I started my way into frontend development.
                     Some project I have been a part of:</p>
 
