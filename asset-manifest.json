@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/reactCV/static/css/main.e34daef2.chunk.css",
-    "main.js": "/reactCV/static/js/main.a1d72244.chunk.js",
-    "main.js.map": "/reactCV/static/js/main.a1d72244.chunk.js.map",
+    "main.js": "/reactCV/static/js/main.138adaa0.chunk.js",
+    "main.js.map": "/reactCV/static/js/main.138adaa0.chunk.js.map",
     "runtime-main.js": "/reactCV/static/js/runtime-main.bdd1701d.js",
     "runtime-main.js.map": "/reactCV/static/js/runtime-main.bdd1701d.js.map",
     "static/js/2.28f3c516.chunk.js": "/reactCV/static/js/2.28f3c516.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.e34daef2.chunk.css.map": "/reactCV/static/css/main.e34daef2.chunk.css.map",
     "static/js/2.28f3c516.chunk.js.LICENSE.txt": "/reactCV/static/js/2.28f3c516.chunk.js.LICENSE.txt",
     "static/media/ItsMePedroo3.74440d90.png": "/reactCV/static/media/ItsMePedroo3.74440d90.png",
-    "static/media/Pedro_Amaro_CV.5a7a3ec5.pdf": "/reactCV/static/media/Pedro_Amaro_CV.5a7a3ec5.pdf",
+    "static/media/Pedro_Amaro_CV.9f50fcc7.pdf": "/reactCV/static/media/Pedro_Amaro_CV.9f50fcc7.pdf",
     "static/media/index.scss": "/reactCV/static/media/Sequel.826a4e52.ttf",
     "static/media/arrow.178cb9e4.svg": "/reactCV/static/media/arrow.178cb9e4.svg",
     "static/media/logo.6ce24c58.svg": "/reactCV/static/media/logo.6ce24c58.svg"
@@ -22,6 +22,6 @@
     "static/js/runtime-main.bdd1701d.js",
     "static/js/2.28f3c516.chunk.js",
     "static/css/main.e34daef2.chunk.css",
-    "static/js/main.a1d72244.chunk.js"
+    "static/js/main.138adaa0.chunk.js"
   ]
 }
