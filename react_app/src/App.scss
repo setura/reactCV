@@ -15,6 +15,77 @@
 
 // My style
 @media only screen and (min-width: 0) {
+
+  input[type='checkbox'] { 
+    display: none; 
+  }
+
+  .wrap-collabsible {
+     margin: 1.2rem 0; 
+    } 
+  
+  .lbl-toggle { 
+    display: block; 
+    font-weight: bold; 
+    font-family: monospace; 
+    font-size: 1.2rem; 
+    text-transform: uppercase; 
+    text-align: center; 
+    padding: 1rem; 
+    color: rgb(163, 162, 162); 
+    background: #ffffff; 
+    cursor: pointer; 
+    border-radius: 30px; 
+    transition: all 0.25s ease-out; 
+  } 
+  
+  .lbl-toggle:hover { 
+    color: rgb(0, 0, 0); 
+  } 
+  
+  .lbl-toggle::before { 
+    content: ' '; 
+    display: inline-block; 
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent; 
+    border-left: 5px solid currentColor; 
+    vertical-align: middle; 
+    margin-right: .7rem; 
+    transform: translateY(-2px); 
+    transition: transform .2s ease-out; 
+  } 
+  
+  .toggle:checked+.lbl-toggle::before { 
+    transform: rotate(90deg) translateX(-3px); 
+  } 
+  
+  .collapsible-content { 
+    max-height: 0px; 
+    overflow: hidden; 
+    transition: max-height .25s ease-in-out; 
+  } 
+  
+  .toggle:checked + .lbl-toggle + .collapsible-content {
+     max-height: none; 
+  } 
+  
+  .toggle:checked+.lbl-toggle {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0; 
+  } 
+  
+  .collapsible-content .content-inner { 
+    background: rgba(255, 255, 255, 0.2); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.45); 
+    border-bottom-left-radius: 7px; 
+    border-bottom-right-radius: 7px; 
+    padding: .5rem 1rem; 
+  } 
+    
+  .collapsible-content p { 
+    margin-bottom: 0; 
+  }
+
   .body {
     position: relative;
     .arrow {
@@ -72,6 +143,20 @@
           &:hover {
             cursor: pointer;
           }
+
+          &.is-inview {
+            background-color: #ffffff;
+            padding: 10px 20px;
+            transition: padding  background-color 0.3s ease-in;
+            -webkit-transition: padding background-color 0.3s ease-in;
+            box-shadow: rgba(255, 255, 255, 0.5) 0px -12px 105px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+            .links-container_resume,
+            .links-container_contact {
+              color: #262626;
+              transition: color 0.3s ease-in;
+              -webkit-transition: color 0.3s ease-in;
+            }
+          }
         }
 
         .presentation-text {
@@ -116,7 +201,7 @@
           padding: 25% 15%;
           visibility: hidden;
 
-          .projects-at-improove {
+          .projects {
             display: flex;
             flex-wrap: wrap;
             margin: 0 -5px;
@@ -160,7 +245,7 @@
 }
 
 @media only screen and (min-width: 475px) {
-  .body .about-me-page .about-me-content .presentation-text .projects-at-improove .project img {
+  .body .about-me-page .about-me-content .presentation-text .projects .project img {
     height: 40px;
   }
 }
@@ -174,7 +259,7 @@
         }
       }
 
-      .about-me-content .presentation-text .projects-at-improove .project img {
+      .about-me-content .presentation-text .projects .project img {
         height: 60px;
       }
     }
@@ -182,7 +267,7 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  .body .about-me-page .about-me-content .presentation-text .projects-at-improove .project img {
+  .body .about-me-page .about-me-content .presentation-text .projects .project img {
     height: 80px;
   }
 }
