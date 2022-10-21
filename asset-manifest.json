@@ -1,27 +1,21 @@
 {
   "files": {
-    "main.css": "/reactCV/static/css/main.e34daef2.chunk.css",
-    "main.js": "/reactCV/static/js/main.138adaa0.chunk.js",
-    "main.js.map": "/reactCV/static/js/main.138adaa0.chunk.js.map",
-    "runtime-main.js": "/reactCV/static/js/runtime-main.bdd1701d.js",
-    "runtime-main.js.map": "/reactCV/static/js/runtime-main.bdd1701d.js.map",
-    "static/js/2.28f3c516.chunk.js": "/reactCV/static/js/2.28f3c516.chunk.js",
-    "static/js/2.28f3c516.chunk.js.map": "/reactCV/static/js/2.28f3c516.chunk.js.map",
-    "static/js/3.a0dd120c.chunk.js": "/reactCV/static/js/3.a0dd120c.chunk.js",
-    "static/js/3.a0dd120c.chunk.js.map": "/reactCV/static/js/3.a0dd120c.chunk.js.map",
+    "main.css": "/reactCV/static/css/main.37c3bf48.css",
+    "main.js": "/reactCV/static/js/main.289dcce9.js",
+    "static/js/787.d8c47fce.chunk.js": "/reactCV/static/js/787.d8c47fce.chunk.js",
+    "static/media/ItsMePedroo3.png": "/reactCV/static/media/ItsMePedroo3.74440d905cc3e60b745c.png",
+    "static/media/Pedro_Amaro_CV.pdf": "/reactCV/static/media/Pedro_Amaro_CV.9f50fcc78db15419658e.pdf",
+    "static/media/RainTungstenMedium.ttf": "/reactCV/static/media/RainTungstenMedium.955874a444acb1ab35cc.ttf",
+    "static/media/Sequel.ttf": "/reactCV/static/media/Sequel.826a4e526e2cb5261607.ttf",
+    "static/media/logo.svg": "/reactCV/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/reactCV/index.html",
-    "static/css/main.e34daef2.chunk.css.map": "/reactCV/static/css/main.e34daef2.chunk.css.map",
-    "static/js/2.28f3c516.chunk.js.LICENSE.txt": "/reactCV/static/js/2.28f3c516.chunk.js.LICENSE.txt",
-    "static/media/ItsMePedroo3.74440d90.png": "/reactCV/static/media/ItsMePedroo3.74440d90.png",
-    "static/media/Pedro_Amaro_CV.9f50fcc7.pdf": "/reactCV/static/media/Pedro_Amaro_CV.9f50fcc7.pdf",
-    "static/media/index.scss": "/reactCV/static/media/Sequel.826a4e52.ttf",
-    "static/media/arrow.178cb9e4.svg": "/reactCV/static/media/arrow.178cb9e4.svg",
-    "static/media/logo.6ce24c58.svg": "/reactCV/static/media/logo.6ce24c58.svg"
+    "static/media/arrow.svg": "/reactCV/static/media/arrow.178cb9e46e03df2e414a6f2b762f200e.svg",
+    "main.37c3bf48.css.map": "/reactCV/static/css/main.37c3bf48.css.map",
+    "main.289dcce9.js.map": "/reactCV/static/js/main.289dcce9.js.map",
+    "787.d8c47fce.chunk.js.map": "/reactCV/static/js/787.d8c47fce.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdd1701d.js",
-    "static/js/2.28f3c516.chunk.js",
-    "static/css/main.e34daef2.chunk.css",
-    "static/js/main.138adaa0.chunk.js"
+    "static/css/main.37c3bf48.css",
+    "static/js/main.289dcce9.js"
   ]
 }
